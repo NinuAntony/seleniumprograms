@@ -35,7 +35,7 @@ public class RoboClass {
 	  int q=allTabs.size();
 	  System.out.println("size="+q);
 	  String s1=(String)allTabs.toArray()[0];
-	  String s2=(String)allTabs.toArray()[0];
+	  String s2=(String)allTabs.toArray()[1];
 	  driver.switchTo().window(s2);
 	  driver.get("https://en.wikipedia.org/wiki/Wiki");
 	  

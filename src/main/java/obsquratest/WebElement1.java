@@ -19,7 +19,7 @@ public class WebElement1 {
 	
   @Test
   public void Verify() {
-	  System.out.print("webelement");
+	
 		WebElement element=driver.findElement(By.id("single-input-field"));
 		element.sendKeys("test");
 		element.clear();
