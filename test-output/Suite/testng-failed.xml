@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="efg"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="abc"/>
+    <classes>
+      <class name="obsquratest.ParametrizedValue">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="test"/>
+          <include name="window1"/>
+        </methods>
+      </class> <!-- obsquratest.ParametrizedValue -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="password" value="12345"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="abcd"/>
+    <classes>
+      <class name="obsquratest.ParametrizedValue">
+        <methods>
+          <include name="getBrowser"/>
+          <include name="test"/>
+          <include name="window1"/>
+        </methods>
+      </class> <!-- obsquratest.ParametrizedValue -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
